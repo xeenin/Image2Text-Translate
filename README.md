@@ -1,1 +1,3 @@
-# Image2Text2Translate
+# Image2Text and Translator
+
+-- How to use
