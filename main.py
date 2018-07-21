@@ -14,12 +14,12 @@ client = vision.ImageAnnotatorClient()
 translate_client = translate.Client()
 
 # Choosing and creating folders
-mypath = "/Users/lmpierin/Documents/TioAcyr/Livro_Alemao/" #Path to images folder
+mypath = "./Images/" #Path to images folder
 
-originaltext = mypath + "Texto_Original/" #Path to original text forlder
+originaltext = mypath + "OriginalText/" #Path to original text forlder
 if not os.path.exists(originaltext):
     os.makedirs(originaltext)
-transtext = mypath + "Texto_Traduzido/" #Path to translated text folder
+transtext = mypath + "TranslatedText/" #Path to translated text folder
 if not os.path.exists(transtext):
     os.makedirs(transtext)
 
