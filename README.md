@@ -41,4 +41,5 @@ gcloud iam service-accounts keys create [FILE_NAME].json --iam-account [NAME]@[P
 **Running**
 
 `python main.py`
-Do not forget to change the code lines to your image path
+
+* *Do not forget to change the code lines to your image path* *
