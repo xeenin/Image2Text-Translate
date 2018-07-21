@@ -22,8 +22,8 @@ gcloud iam service-accounts keys create [FILE_NAME].json --iam-account [NAME]@[P
 ```
 4. Provide authentication credentials to your application code by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS. Replace [PATH] with the file path of the JSON file that contains your service account key, and [FILE_NAME] with the filename.
 
-**Windows**
-- With PowerShell:
-```
-$env:GOOGLE_APPLICATION_CREDENTIALS="[PATH]\[FILE_NAME].json"
-```
+   **Windows**
+   - With PowerShell:
+     ```
+     $env:GOOGLE_APPLICATION_CREDENTIALS="[PATH]\[FILE_NAME].json"
+     ```
