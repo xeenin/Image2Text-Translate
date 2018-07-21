@@ -7,6 +7,7 @@ pip install --upgrade google-cloud-translate google-cloud-vision
 ```
 
 **Setting up authentication**
+
 You can run the following commands using the Cloud SDK on your local machine, or within Cloud Shell.
 1. Create the service account. Replace [NAME] with your desired service account name.
 ```
@@ -27,3 +28,18 @@ gcloud iam service-accounts keys create [FILE_NAME].json --iam-account [NAME]@[P
      ```
      $env:GOOGLE_APPLICATION_CREDENTIALS="[PATH]\[FILE_NAME].json"
      ```
+   - With command prompt:
+     ```
+     set GOOGLE_APPLICATION_CREDENTIALS=[PATH]\[FILE_NAME].json
+     ```
+   
+   **Linux or MacOS**
+     ```
+     export GOOGLE_APPLICATION_CREDENTIALS="[PATH]/[FILE_NAME].json"
+     ```   
+
+**Running**
+
+    ```
+    python main.py
+    ```
